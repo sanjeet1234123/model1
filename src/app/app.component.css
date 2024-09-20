@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Prevents scrollbars */
+  height: 100vh;
+  width: 100vw;
+  background-color: #87ceeb; /* Background color for the body */
+}
+
+#rendererContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #87ceeb; /* Set background color here */
+}
+
+/* Ensure the canvas scales correctly */
+canvas {
+  display: block; /* Prevents scrollbars */
+  width: 100% !important; /* Force canvas to fill the container */
+  height: 100% !important; /* Force canvas to fill the container */
+}
